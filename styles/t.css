@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: lightcoral;
+}
+main{
+    padding-top: 10%;
+}
+.teachers{
+    margin: auto;
+}
+.teacher {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    display: inline-block;
+    text-align: center;
+}
+
+.teacher img {
+    max-width: 200px;
+    max-height: 400px;
+}
+
+.teacher h2 {
+    margin: 10px 0;
+}
+
+.teacher p {
+    font-style: italic;
+}
