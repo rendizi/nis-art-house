@@ -46,19 +46,19 @@
         background-color: #E6E6FA;
     }
     #navbar ul li:nth-child(3) div:hover{
-        background-color: rgb(249, 196, 225);
+        background-color: rgba(166, 190, 254, 0.99);
     }
     #navbar ul li:nth-child(4) div:hover{
-        background-color: #cef1d3;
+        background-color: #d3fff8;
     }
     #navbar ul li:nth-child(5) div:hover{
-        background-color: lightgray;
+        background-color: rgb(244, 247, 224);
     }
     #navbar ul li:nth-child(6) div:hover{
-        background-color: rgb(250, 247, 149);
+        background-color: rgb(255, 194, 254);
     }
     #navbar ul li:nth-child(7) div:hover{
-        background-color: rgb(187, 225, 249);
+        background-color: rgb(249, 187, 187);
     }
     #navbar li {
         margin: 5px;
