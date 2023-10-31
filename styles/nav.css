@@ -43,7 +43,7 @@
     }
 
     #navbar ul li:nth-child(2) div:hover {
-        background-color: plum;
+        background-color: #E6E6FA;
     }
     #navbar ul li:nth-child(3) div:hover{
         background-color: rgb(249, 196, 225);
