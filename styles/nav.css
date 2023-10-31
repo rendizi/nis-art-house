@@ -49,10 +49,10 @@
         background-color: rgba(233, 238, 255, 0.99);
     }
     #navbar ul li:nth-child(4) div:hover{
-        background-color: #d6f9f3;
+        background-color: #d6f9f372;
     }
     #navbar ul li:nth-child(5) div:hover{
-        background-color: rgb(244, 247, 224);
+        background-color: rgba(244, 247, 224, 0.612);
     }
     #navbar ul li:nth-child(6) div:hover{
         background-color: rgb(251, 229, 223);
