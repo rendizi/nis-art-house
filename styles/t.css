@@ -1,32 +1,45 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background-color: #FFCCCC;
-}
-main{
+    background-color: #FFECEC;
     padding-top: 10%;
 }
-.teachers{
-    margin: auto;
+
+section{
+    display: grid;
+    place-items: center;
+    align-content: center;
+    min-height: 100vh;
+    z-index: inherit;
+    gap: 50vh;
 }
-.teacher {
-    background-color: white;
-    margin: 20px;
-    padding: 20px;
-    border: 1px solid #ccc;
-    display: inline-block;
-    text-align: center;
+section img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+.hidden{
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1.5s;
+}
+.show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
 }
 
-.teacher img {
-    max-width: 200px;
-    max-height: 400px;
+.logos{
+    display: flex;
+    gap: 100px
 }
-
-.teacher h2 {
-    margin: 10px 0;
+.logo:nth-child(2){
+    transition-delay: 300ms;
 }
-
-.teacher p {
-    font-style: italic;
+.logo:nth-child(3){
+    transition-delay: 600ms;
+}
+.logo:nth-child(4){
+    transition-delay: 900ms;
 }
