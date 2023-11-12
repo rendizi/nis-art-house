@@ -66,20 +66,8 @@
         border-radius: 5%;
         opacity: 80%;
         z-index: 1;
-        background: linear-gradient(45deg, #ff7e5f, #feb47b);
-        margin-left: 2vh;
-    }
-    .mini-text:nth-child(2){
         background: linear-gradient(45deg, #5fdcff, #feb47b);;
-    }
-    .mini-text:nth-child(3){
-        background: linear-gradient(45deg, #5facff, #fcfe7b);;
-    }
-    .mini-text:nth-child(4){
-        background: linear-gradient(45deg, #ff5ffc, #7bdbfe);;
-    }
-    .mini-text:nth-child(5){
-        background: linear-gradient(45deg, #ccff5f, #7b81fe);;
+        margin-left: 2vh;
     }
     .mini-text h2{
         margin-left: 3vh
