@@ -1,4 +1,4 @@
-@media (min-width: 1000px){
+
     #navbar {
         background-color: #fff;
         color: #333;
@@ -71,5 +71,25 @@
         z-index: -1;
         max-height: 100px;
     }
-}
-
+    .burger{
+        display: flex;
+        position: relative;
+        z-index: 100;
+        align-items: center;
+        justify-content: flex-end;
+        width: 30px;
+        height: 18px;
+        cursor: pointer;
+    }
+    
+    .burger span{
+        height: 2px;
+        width: 100%;
+        transform: scale(1);
+        background-color: #FAF6F2;
+        white-space: nowrap;
+    }
+    
+    @media (max-width: 900px) {
+        
+    }
