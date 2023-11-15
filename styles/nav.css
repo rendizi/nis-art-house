@@ -67,7 +67,7 @@
         font-family: 'Century Gothic', sans-serif;
     }
     #logo {
-        transform: scale(0.5);
+        transform: scale(1);
         z-index: -1;
         max-height: 100px;
     }
