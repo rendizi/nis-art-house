@@ -1,5 +1,6 @@
 <link rel="stylesheet" href="styles/nav.css">
 <link rel="stylesheet" href="https://use.typekit.net/oov2wcw.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <div class="heade">
     <nav id="navbar">
         <ul>
@@ -15,11 +16,17 @@
             <li><div><a href="" target="_top">ДПИ</a></div></li>
             <li>
                 <div><a href="./pages/master_classi.html" target="_top">Мастер классы</a></div>
-                <div class="burger">
-                    <span></span>
-                </div>
             </li>
+            <div class="burger">
+                <span></span>
+            </div>
         </ul>
     </nav>
     <script src="scripts/home_script.js"></script>
+    <script>
+        document.querySelector('.burger').addEventListener('click', function() {
+            this.classList.toggle('active');
+            document.querySelector('.nav').classList.toggle('open');
+        })
+    </script>
 </div>
