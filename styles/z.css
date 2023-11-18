@@ -2,9 +2,12 @@
 body{
     background-color: #dcf9f0;
 }
+main{
+    padding-top: 3vh;
+}
 .gallery {
     margin: 10px;
-    padding-top: 10%;
+    padding-top: 5%;
     display: grid;
     font-size: 1rem;
     text-decoration: none;
@@ -19,7 +22,6 @@ body{
     padding-right: 5px;
 }
 
-/* Apply styles to each artwork item */
 .gallery-item {
     flex: 0 0 calc(33.33% - 20px);
     
@@ -40,7 +42,7 @@ body{
 
 /* Scale up on hover */
 .gallery-item:hover {
-    transform: scale(1.2);
+    transform: scale(1.05);
 }
 
 /* Responsive design - Adjust the number of items per row for smaller screens */

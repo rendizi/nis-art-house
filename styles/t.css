@@ -9,9 +9,9 @@ section{
     display: grid;
     place-items: center;
     align-content: center;
-    min-height: 100vh;
+    min-height: 20vh;
     z-index: inherit;
-    gap: 50vh;
+    gap: 20vh;
 }
 section img{
     width: 200px;
