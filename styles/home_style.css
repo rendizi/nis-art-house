@@ -81,7 +81,12 @@
         margin-left: 3vh;
         margin-right: 3vh;
     }
-    
+    footer{
+        background-image: url(https://vestnik.cdo.kz/creator/content/OociNFD0bPWR.JPG);
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover; 
+    }
 }
 @media screen and (max-width: 767px) {
     
