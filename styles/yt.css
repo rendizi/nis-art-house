@@ -1,9 +1,12 @@
-main{
+/* For desktop and larger screens */
+main {
     padding-top: 10%;
 }
-body{
-    background-color:   rgba(222, 246, 249, 0.686);
+
+body {
+    background-color: rgba(222, 246, 249, 0.686);
 }
+
 .video-grid {
     padding-top: 30px;
     display: grid;
@@ -12,7 +15,7 @@ body{
 }
 
 .video {
-    padding-bottom: 1vh; 
+    padding-bottom: 1vh;
     overflow: hidden;
     background-color: white;
 }
@@ -30,4 +33,24 @@ body{
     text-decoration: none;
     color: #333;
     font-family: 'Century Gothic', sans-serif;
+}
+
+/* For mobile devices */
+@media screen and (max-width: 768px) {
+    .video-grid {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding-top: 20px;
+    }
+
+    .video {
+        flex: 0 0 calc(50% - 20px);
+        max-width: calc(50% - 20px);
+        margin-bottom: 20px;
+    }
+
+    .video iframe {
+        height: 25vh;
+    }
 }
