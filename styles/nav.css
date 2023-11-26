@@ -73,5 +73,24 @@
 
     
     @media (max-width: 900px) {
-        
+        #navbar {
+            overflow-y: auto; /* Set a maximum height for the navbar */
+        }
+    
+        #navbar ul {
+            font-size: 1.4rem; /* Adjusting the font size for smaller screens */
+            grid-template-columns: repeat(3, 1fr);
+            justify-content: space-between; /* Distribute items with space between them */
+            padding-right: 0; /* Remove unnecessary padding */
+            margin: 0; /* Reset margin */
+        }
+    
+        #navbar ul li {
+            padding: 3px; /* Reduce padding between list items */
+            margin: 0; /* Reset margin */
+        }
+    
+        #navbar ul li div {
+            padding: 3px; /* Reduce padding inside div elements */
+        }
 }
