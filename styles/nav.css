@@ -74,13 +74,13 @@
     
     @media (max-width: 900px) {
         #navbar {
-            overflow-y: auto; /* Set a maximum height for the navbar */
+            overflow-y: auto; 
         }
     
         #navbar ul {
-            font-size: 1.4rem; /* Adjusting the font size for smaller screens */
+            font-size: 1.4rem; 
             grid-template-columns: repeat(3, 1fr);
-            justify-content: space-between; /* Distribute items with space between them */
+            justify-content: space-between; 
             padding-right: 0; /* Remove unnecessary padding */
             margin: 0; /* Reset margin */
         }
