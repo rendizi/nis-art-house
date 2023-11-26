@@ -64,10 +64,11 @@
         height: 40vh;
         width: 100vh;
         border-radius: 5%;
-        opacity: 80%;
+        opacity: 0.8;
         z-index: 1;
         background: linear-gradient(45deg, #5fdcff, #feb47b);;
         margin-left: 2vh;
+        overflow: auto;
     }
     .mini-text h2{
         margin-left: 3vh;
@@ -78,19 +79,33 @@
         margin-right: 3vh;
     }
     footer{
-        background-image: url(https://vestnik.cdo.kz/creator/content/OociNFD0bPWR.JPG);
-        height: 100vh;
+        background-color: white;
+        height: 20vh;
         background-repeat: no-repeat;
         background-size: cover; 
+        color: #fff;
+        padding: 20px;
     }
+    
     .contact-us {
-        position: flex;
-        top: 50%;
-        left: 50%;
-        margin: auto;
-        background-color: white;
-        transform: translate(-50%, -50%);
-        height: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #fff;
+        color: #333;
+        padding: 20px;
+        border-radius: 20px;
         width: 400px;
-        z-index: 2;
+        margin: 0 auto;
+    }
+    
+    .contact-us h2 {
+        margin-top: 0;
+    }
+    
+    .footer-image {
+        display: block;
+        margin: 0 auto;
+        width: 100px;
+        height: 100px;
     }
