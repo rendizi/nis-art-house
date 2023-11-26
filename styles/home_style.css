@@ -19,6 +19,7 @@
         z-index: -1;
         left: 0;
         right: 0;
+        max-width: 100%;
     }    
     .info{
         z-index: -1;
@@ -28,6 +29,7 @@
         background-color: rgba(240, 216, 252, 0.521);
         position: relative;
         z-index: -1;
+        max-width: 100%;
     }
     .logan {
         background-color: yellow;
@@ -84,6 +86,7 @@
         background-repeat: no-repeat;
         background-size: cover; 
         color: #fff;
+        max-width: 100%;
         padding: 20px;
     }
     
@@ -93,10 +96,10 @@
         justify-content: center;
         background-color: #fff;
         color: #333;
-        padding: 20px;
         border-radius: 20px;
         width: 400px;
         margin: 0 auto;
+        padding: 20px;
     }
     
     .contact-us h2 {
@@ -108,4 +111,28 @@
         margin: 0 auto;
         width: 100px;
         height: 100px;
+    }
+
+    @media screen and (max-width: 768px){
+        .contact-us{
+            width: 300px;
+        }
+        .footer-image{
+            width: 75px;
+            height: 75px;
+        }
+        .logan{
+            height: 10%;
+            width: 75%;
+            
+        }
+        .Welcome{
+            height: 150vh;
+        }
+        .logan h1{
+            font-size: 110%;
+        }
+        .mini-texts{
+            flex-wrap: wrap;
+        }
     }
