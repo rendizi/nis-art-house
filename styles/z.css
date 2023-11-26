@@ -1,10 +1,12 @@
-/* Apply styles to the gallery container */
-body{
+/* For desktop and larger screens */
+body {
     background-color: #dcf9f0;
 }
-main{
+
+main {
     padding-top: 3vh;
 }
+
 .gallery {
     margin: 10px;
     padding-top: 5%;
@@ -12,7 +14,7 @@ main{
     font-size: 1rem;
     text-decoration: none;
     color: #333;
-    font-family: 'Century Gothic', sans-serif; 
+    font-family: 'Century Gothic', sans-serif;
     grid-template-columns: repeat(5, 1fr);
     grid-auto-flow: column;
     grid-auto-columns: 1fr;
@@ -24,7 +26,6 @@ main{
 
 .gallery-item {
     flex: 0 0 calc(33.33% - 20px);
-    
     margin: 10px;
     cursor: pointer;
     position: relative;
@@ -45,13 +46,20 @@ main{
     transform: scale(1.05);
 }
 
-/* Responsive design - Adjust the number of items per row for smaller screens */
-@media (max-width: 768px) {
-    .gallery {
-        justify-content: center;
+/* For mobile devices */
+@media screen and (max-width: 768px) {
+    main{
+        padding-top: 10vh;
     }
+    .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding-top: 20px;
+    }
+
     .gallery-item {
         flex: 0 0 calc(50% - 20px);
-        width: calc(50% - 20px);
+        max-width: calc(50% - 20px);
     }
 }
