@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>NIS ART HOUSE</title>
+        <meta name="description" content="Музей работ учеников Назарбаев Интеллектуальной Школы">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Forum&display=swap" rel="stylesheet">
+        <script src="nis-art-house/scripts/home_script.js"></script>
+        <link rel="icon" href="imgs/logo_trans.PNG" type="image/png">
+        <meta name="google-site-verification" content="oNELuQbJ5yIGPCVE4W1QNGXEqhDTAFmwFw9eUr5eVaw" />
+        <link rel="stylesheet" href="baba.css">
+    </head>
+    <body>
+        <div class="wrapper">
+            <header class="header">
+                <a href="#" class="logo"><img id="logo" src="./imgs/logo_black.png"></a>
+                <nav class="nav">
+                    <ul>
+                        <li>Главная</li>
+                        <li>Наши Учителя</li>
+                        <li>Живопись</li>
+                        <li>Графика</li>
+                        <li>ДПИ</li>
+                        <li>Мастер классы</li>
+                    </ul>
+                </nav>
+        
+                <div class="burger">
+                    <span></span>
+                </div>
+            </header>
+        </div>
+        <main>
+            <section class="Welcome">
+                <div class="logan">
+                    <h1>
+                        Вдохновляйтесь
+                        <br>
+                        Создавайте
+                    </h1>
+                </div>
+                <div class="mini-texts">
+                    <div class="mini-text">
+                        <h2>Доброе пожаловать в виртуальный музей NIS! </h2>
+                        <p>Мы рады приветствовать вас в этом уникальном пространстве, где вы можете познакомиться с творчеством учащихся Назарбаев Интеллектуальных школ, где каждый экспонат — это отражение учебы, исследований и вдохновения наших учеников. Здесь вы можете увидеть творческие работы различных техник и направлений: живопись, графика, декоративно-прикладное искусство, познакомится с нашими преподавателями, и научится создавать собственные работы на наших мастер-классах.</p>
+                    </div>
+
+                    <div class="mini-text">
+                        <h2>Наша цель</h2>
+                        <p>Наша цель - вдохновить вас, побудить к размышлениям и подарить незабываемый опыт исследования искусства.Проведите время в нашем виртуальном музее, наслаждаясь произведениями искусства, которые отражают таланты и творческое мастерство наших учеников.</p>
+                    </div>
+                    
+                </div>
+            </section>
+            <section class="info"></section>
+        </main>
+    </body>
+    <script>
+        document.querySelector('.burger').addEventListener('click', function() {
+            this.classList.toggle('active');
+            document.querySelector('.nav').classList.toggle('open');
+        })
+    </script>
+</html>
