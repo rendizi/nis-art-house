@@ -10,7 +10,7 @@
         overflow-x: 0;
     }
     .Welcome{
-        height: 100vh;
+        height: 140vh;
         background-image: url(../imgs/banner.jpg);
         background-size: cover;
         background-repeat: no-repeat;
@@ -34,7 +34,7 @@
     .logan {
         background-color: yellow;
         z-index: 1;
-        height: 25vh;
+        height: 20vh;
         width: 65vh;
         position: relative;
         top: 20vh;
@@ -43,17 +43,18 @@
         display: flex;
         align-items: center; 
         justify-content: flex-start;
-        border-top-left-radius: 15%;
-        border-top-right-radius: 40%;
-        border-bottom-right-radius: 40%;
-        border-bottom-left-radius: 15%;
+        border-top-left-radius: 50%;
+        border-top-right-radius: 50%;
+        border-bottom-right-radius: 50%;
+        border-bottom-left-radius: 50%;
+        text-align: center;
     }
     
     .logan h1 {
         color: black;
         font-size: 5vh;
         font-family:'Comfortaa', sans-serif;
-        margin-left: 5vh; 
+        margin: 0;
     }
     .mini-texts {
         top: 32vh;
@@ -61,10 +62,12 @@
         display: flex; 
         margin-left: 5vh;
         margin-right: 7vh;
+        flex-wrap: wrap;
+        gap: 80px;
     }
     .mini-text {
-        height: 40vh;
-        width: 100vh;
+        height: 30vh;
+        width: 125vh;
         border-radius: 5%;
         opacity: 0.8;
         z-index: 1;
@@ -75,10 +78,12 @@
     .mini-text h2{
         margin-left: 3vh;
         margin-right: 3vh;
+        font-size: 24px;
     }
     .mini-text p{
         margin-left: 3vh;
         margin-right: 3vh;
+        font-size: 20px;
     }
     footer{
         background-color: white;
@@ -113,6 +118,40 @@
         height: 100px;
     }
 
+    .news {
+        position: relative;
+        display: flex; 
+        margin-left: 5vh;
+        margin-right: 7vh;
+        gap: 50px;
+    }
+    .new {
+        height: 35vh;
+        width: 90vh;
+        border-radius: 5%;
+        opacity: 0.8;
+        z-index: 1;
+        background: linear-gradient(45deg, #a584f9, #f5fe7b);;
+        margin-left: 2vh;
+        overflow: auto;
+    }
+    .new h2{
+        margin-left: 3vh;
+        margin-right: 3vh;
+        font-size: 24px;
+    }
+    .new p{
+        margin-left: 3vh;
+        margin-right: 3vh;
+        font-size: 20px;
+    }
+    h1{
+        padding-left: 7.5vh;
+        font-size: 70px;
+    }
+    #title{
+        
+    }
     @media screen and (max-width: 768px){
         .contact-us{
             width: 300px;
