@@ -12,6 +12,31 @@
         <link rel="icon" href="../imgs/logo_trans.PNG" type="image/png">
     </head>
     <body>
+        <div class="wrapper">
+            <header class="header">
+                <a href="#" class="logo"><img id="logo" src="./imgs/logo_black.png"></a>
+                <nav class="nav">
+                    <ul class="silki">
+                        <li><div><a href="https://arthouse.baglanov.site/" target="_top" style="text-decoration: none;">Главная</a></div></li>
+            
+                        <li><div><a href="https://arthouse.baglanov.site/pages/zhivopis" target="_top" style="text-decoration: none;">Живопись</a></div></li>
+                        <li><div><a href="https://arthouse.baglanov.site/pages/maketi" target="_top" style="text-decoration: none;">Макеты</a></div></li>
+                        <li><div><a href="https://arthouse.baglanov.site/pages/dpi" target="_top" style="text-decoration: none;">ДПИ</a></div></li>
+                        <li>
+                            <div><a href="https://arthouse.baglanov.site/pages/master_classi" target="_top" style="text-decoration: none;">Мастер классы</a></div>
+                        </li>
+                        <li><div><a href="https://arthouse.baglanov.site/pages/teachers" target="_top" style="text-decoration: none;">Наши Учителя</a></div></li>
+                    </ul>
+                </nav>
+                <p class="nazvanie">
+                    Виртуальный музей <br>
+                    NIS
+                </p>
+                <div class="burger">
+                    <span></span>
+                </div>
+            </header>
+        </div>
         <iframe id="nav" scrolling="no" src="../navbar.html"></iframe>
         <main>
             <div class="video-grid">
@@ -32,4 +57,35 @@
             </div>
         </main>
     </body>
+    <script>
+        document.querySelector('.burger').addEventListener('click', function() {
+            this.classList.toggle('active');
+            document.querySelector('.nav').classList.toggle('open');
+        })
+        // Получаем ссылку на элемент iframe по его id
+        const navIframe = document.getElementById("nav");
+
+        // Проверяем ширину экрана при загрузке страницы
+        checkScreenWidth();
+
+        // Обрабатываем изменения размера экрана
+        window.addEventListener("resize", checkScreenWidth);
+
+        function checkScreenWidth() {
+        // Если ширина экрана меньше 900 пикселей, скрываем iframe
+        if (window.innerWidth <= 900) {
+        navIframe.style.display = "none";
+        } else {
+        // Иначе, отображаем iframe
+        navIframe.style.display = "block";
+        }
+        }
+        document.addEventListener('DOMContentLoaded', function () {
+        const burger = document.querySelector('.burger');
+        const body = document.querySelector('body');
+        burger.addEventListener('click', function () {
+        body.classList.toggle('no-scroll');
+        });
+        });
+    </script>
 </html>
