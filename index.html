@@ -15,6 +15,28 @@
         <meta name="google-site-verification" content="oNELuQbJ5yIGPCVE4W1QNGXEqhDTAFmwFw9eUr5eVaw" />
     </head>
     <body>
+        <div class="wrapper">
+            <header class="header">
+                <a href="#" class="logo"><img id="logo" src="./imgs/logo_black.png"></a>
+                <nav class="nav">
+                    <ul>
+                        <li>Главная</li>
+                        <li>Наши Учителя</li>
+                        <li>Живопись</li>
+                        <li>Графика</li>
+                        <li>ДПИ</li>
+                        <li>Мастер классы</li>
+                    </ul>
+                </nav>
+                <p class="nazvanie">
+                    Виртуальный музей <br>
+                    NIS
+                </p>
+                <div class="burger">
+                    <span></span>
+                </div>
+            </header>
+        </div>
         <iframe id="nav" src="navbar.html"></iframe>
         <main>
             <section class="Welcome">
@@ -68,4 +90,35 @@
             </div>
         </footer>
     </body>
+    <script>
+        document.querySelector('.burger').addEventListener('click', function() {
+            this.classList.toggle('active');
+            document.querySelector('.nav').classList.toggle('open');
+        })
+        // Получаем ссылку на элемент iframe по его id
+        const navIframe = document.getElementById("nav");
+
+        // Проверяем ширину экрана при загрузке страницы
+        checkScreenWidth();
+
+        // Обрабатываем изменения размера экрана
+        window.addEventListener("resize", checkScreenWidth);
+
+        function checkScreenWidth() {
+        // Если ширина экрана меньше 900 пикселей, скрываем iframe
+        if (window.innerWidth <= 900) {
+        navIframe.style.display = "none";
+        } else {
+        // Иначе, отображаем iframe
+        navIframe.style.display = "block";
+        }
+        }
+        document.addEventListener('DOMContentLoaded', function () {
+        const burger = document.querySelector('.burger');
+        const body = document.querySelector('body');
+        burger.addEventListener('click', function () {
+        body.classList.toggle('no-scroll');
+        });
+        });
+    </script>
 </html>
