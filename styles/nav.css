@@ -42,7 +42,7 @@
         background-color:   rgba(239, 224, 247, 0.521)
     }
     #navbar ul li:nth-child(3) div:hover{
-        background-color: #FFECEC;
+        background-color: rgba(222, 246, 249, 0.686);
     }
     #navbar ul li:nth-child(4) div:hover{
         background-color: #d6f9f337;
@@ -54,7 +54,7 @@
         background-color: rgba(246, 255, 178, 0.686);
     }
     #navbar ul li:nth-child(7) div:hover{
-        background-color: rgba(222, 246, 249, 0.686);
+        background-color: #FFECEC;
     }
     #navbar li {
         margin: 5px;
