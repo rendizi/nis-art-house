@@ -136,39 +136,11 @@ section img{
         display: flex;
         z-index: 100;
     }
-    .contact-us{
-        width: 300px;
-    }
-    .footer-image{
-        width: 75px;
-        height: 75px;
-    }
-    .logan{
-        height: 10%;
-        width: 75%;
-        
-    }
-    .Welcome{
-        height: 150vh;
-    }
-    .logan h1{
-        font-size: 110%;
-    }
-    .mini-texts{
-        flex-wrap: wrap;
-        gap: 20px;
-    }
-    .news{
-        flex-wrap: wrap;
-        gap: 2vh;
-    }
-
-
     .burger { display: flex; cursor: pointer;}
+    
     .logo{
     display: none;
     }
-
     .nav{
     display: none;
     flex-direction: column;
