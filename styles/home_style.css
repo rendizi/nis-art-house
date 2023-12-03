@@ -43,7 +43,6 @@
         border-radius: 50%;
 
     }
-    
     .logan h1 {
         color: black;
         font-size: 5vh;
@@ -90,7 +89,6 @@
         max-width: 100%;
         padding: 20px;
     }
-    
     .contact-us {
         display: flex;
         align-items: center;
@@ -102,18 +100,15 @@
         margin: 0 auto;
         padding: 20px;
     }
-    
     .contact-us h2 {
         margin-top: 0;
     }
-    
     .footer-image {
         display: block;
         margin: 0 auto;
         width: 100px;
         height: 100px;
     }
-
     .news {
         position: relative;
         display: flex; 
@@ -132,7 +127,6 @@
         cursor: pointer;
         z-index: 1;
     }
-    
     .popup-content, .popup-content-2,.popup-content-3,.popup-content-4 {
         display: none;
         position: fixed;
