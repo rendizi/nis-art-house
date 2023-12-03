@@ -15,33 +15,23 @@
         <meta name="google-site-verification" content="oNELuQbJ5yIGPCVE4W1QNGXEqhDTAFmwFw9eUr5eVaw" />
         <script>
             document.addEventListener('click', function(event) {
-        const popup1 = document.getElementById('popupContent');
-        const popup2 = document.getElementById('popupContent-2');
-        const popup3 = document.getElementById('popupContent-3');
-        const popup4 = document.getElementById('popupContent-4');
-        const targetElement = event.target;
-
-        if (popup1 && popup1.style.display === 'block' && !popup1.contains(targetElement) && !targetElement.classList.contains('new')) {
-            popup1.style.display = 'none';
-        }
-
-        if (popup2 && popup2.style.display === 'block' && !popup2.contains(targetElement) && !targetElement.classList.contains('new')) {
-            popup2.style.display = 'none';
-        }
-        if (popup3 && popup3.style.display === 'block' && !popup3.contains(targetElement) && !targetElement.classList.contains('new')) {
-            popup3.style.display = 'none';
-        }
-        if (popup4 && popup4.style.display === 'block' && !popup4.contains(targetElement) && !targetElement.classList.contains('new')) {
-            popup4.style.display = 'none';
-        }
-    });
-
-    function togglePopup(popupId) {
-        const popup = document.getElementById(popupId);
-        if (popup) {
-            popup.style.display = (popup.style.display === 'block') ? 'none' : 'block';
-        }
-    }
+                const popups = ['popupContent', 'popupContent-2', 'popupContent-3', 'popupContent-4'];
+                const targetElement = event.target;
+        
+                popups.forEach(popupId => {
+                    const popup = document.getElementById(popupId);
+                    if (popup && popup.style.display === 'block' && !popup.contains(targetElement) && !targetElement.classList.contains('new')) {
+                        popup.style.display = 'none';
+                    }
+                });
+            });
+        
+            function togglePopup(popupId) {
+                const popup = document.getElementById(popupId);
+                if (popup) {
+                    popup.style.display = (popup.style.display === 'block') ? 'none' : 'block';
+                }
+            }
         </script>
     </head>
     <body>
