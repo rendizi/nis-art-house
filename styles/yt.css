@@ -132,18 +132,20 @@ body {
     .video-grid {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
         padding-top: 20px;
+        justify-content: center; 
+    align-items: center; 
     }
-
+    
     .video {
-        flex: 0 0 calc(50% - 20px);
-        max-width: calc(50% - 20px);
+        flex: 0 0 70%; 
+        width: calc(70% - 20px);
         margin-bottom: 20px;
     }
-
+    
     .video iframe {
         height: 25vh;
+        width: 100%; 
     }
     main{
         padding-top: 15vh;

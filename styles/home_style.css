@@ -40,15 +40,22 @@
         left: 7vh;
         opacity: 50%;
         display: flex;
+        justify-content: center; 
+        align-items: center;
         border-radius: 50%;
-
+        text-align: center; 
+        
     }
+    
     .logan h1 {
         color: black;
         font-size: 5vh;
-        font-family:'Comfortaa', sans-serif;
-        margin: 0;
+        font-family: 'Comfortaa', sans-serif;
+        padding: 0;
+        width: 100%; /* Ensure the text takes full width */
+        padding-top: 2.5vh;
     }
+    
     .mini-texts {
         top: 27vh;
         position: relative;
