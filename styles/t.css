@@ -35,7 +35,7 @@ section img{
 }
 .logos{
     display: flex;
-    gap: 40vh;
+    gap: 50vh;
 }
 .logo:nth-child(2){
     transition-delay: 300ms;
