@@ -6,7 +6,7 @@ body {
 }
 main{
     padding-top: 15vh;
-    margin-top: 20vh;
+    margin-top: 25vh;
 }
 section{
     display: grid;
@@ -14,12 +14,13 @@ section{
     align-content: center;
     min-height: 20vh;
     z-index: inherit;
-    gap: 20px;
+    gap: 40px;
 }
 section img{
     width: 200px;
     height: 200px;
     border-radius: 100%;
+
 }
 .hidden{
     opacity: 0;
