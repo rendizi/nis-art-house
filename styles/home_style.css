@@ -31,18 +31,18 @@
         max-width: 100%;
     }
     .logan {
-        background-color: yellow;
+        background-color: #849fa5;
         z-index: 1;
         height: 20vh;
         width: 65vh;
         position: relative;
         top: 20vh;
         left: 7vh;
-        opacity: 50%;
+        opacity: 40%;
         display: flex;
         justify-content: center; 
         align-items: center;
-        border-radius: 50%;
+        border-radius: 10%;
         text-align: center; 
         
     }
@@ -70,9 +70,9 @@
         height: 40vh;
         width: 125vh;
         border-radius: 5%;
-        opacity: 0.8;
+        opacity: 60%;
         z-index: 1;
-        background: linear-gradient(45deg, #5fdcff, #feb47b);;
+        background-color: #849fa5;
         margin-left: 2vh;
         overflow: auto;
         cursor: pointer;
@@ -81,11 +81,15 @@
         margin-left: 3vh;
         margin-right: 3vh;
         font-size: 24px;
+        opacity: 1;
+        font-family: 'Comfortaa', sans-serif;
     }
     .mini-text p{
         margin-left: 3vh;
         margin-right: 3vh;
         font-size: 20px;
+        opacity: 1;
+        font-family: 'Comfortaa', sans-serif;
     }
     footer{
         background-color: white;
@@ -151,11 +155,13 @@
         margin-left: 3vh;
         margin-right: 3vh;
         font-size: 24px;
+        font-family: 'Comfortaa', sans-serif;
     }
     .new p{
         margin-left: 3vh;
         margin-right: 3vh;
         font-size: 20px;
+        font-family: 'Comfortaa', sans-serif;
     }
     h1{
         padding-left: 7.5vh;
@@ -165,6 +171,7 @@
         margin-top: 0;
         padding-top: 40px;
         color: rgba(23, 0, 45, 0.789);
+        font-family: 'Comfortaa', sans-serif;
     }
 
 
