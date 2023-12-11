@@ -31,7 +31,7 @@
         max-width: 100%;
     }
     .logan {
-        background-color: rgba(255, 255, 255, 0.5);
+        background-color: rgba(255, 255, 255, 0.3);
         z-index: 1;
         height: 20vh;
         width: 65vh;
@@ -47,10 +47,9 @@
     }
     
     .logan h1 {
-        color: black;
+        color: purple;
         font-size: 5vh;
-        font-family: 'Czizh Body';
-        font-style: italic;
+        font-family: 'Comfortaa', sans-serif;
         padding: 0;
         width: 100%; /* Ensure the text takes full width */
         padding-top: 2.5vh;
@@ -71,7 +70,7 @@
         width: 125vh;
         border-radius: 5%;
         z-index: 1;
-        background-color: rgba(255, 255, 255, 0.5);
+        background-color: rgba(255, 255, 255, 0.3);
         margin-left: 2vh;
         overflow: auto;
         cursor: pointer;
@@ -294,6 +293,9 @@
         .mini-texts{
             flex-wrap: wrap;
             gap: 20px;
+        }
+        .mini-text p{
+            font-size: 15px;
         }
         .news{
             flex-wrap: wrap;
