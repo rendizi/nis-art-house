@@ -295,11 +295,15 @@
             gap: 20px;
         }
         .mini-text p{
-            font-size: 15px;
+            font-size: 12px;
+            letter-spacing: 0.5px;
         }
         .news{
             flex-wrap: wrap;
             gap: 2vh;
+        }
+        .news p{
+            font-size: 12px;
         }
 
 
