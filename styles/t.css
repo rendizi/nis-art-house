@@ -30,6 +30,9 @@ section img{
     display: flex;
     gap: 50vh;
 }
+.da{
+    gap: 70vh;
+}
 .logo:nth-child(2){
     transition-delay: 300ms;
 }
