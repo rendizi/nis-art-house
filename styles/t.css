@@ -31,6 +31,7 @@ section img{
     gap: 50vh;
 }
 .da{
+    margin-top: 15vh;
     gap: 70vh;
 }
 .logo:nth-child(2){
